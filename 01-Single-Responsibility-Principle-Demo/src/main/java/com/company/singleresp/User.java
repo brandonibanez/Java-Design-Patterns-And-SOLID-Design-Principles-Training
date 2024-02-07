@@ -1,6 +1,6 @@
 package com.company.singleresp;
 
-//User entity
+//User
 public class User {
 
     private String name;
