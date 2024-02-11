@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae77487-c5ad-4bfe-85ce-7b735eaa2db1" name="Changes" comment="" />
+    <list default="true" id="8f166074-0556-4607-9589-8c6d5a0b6787" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Abstract-Factory/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2cDCseiUb6hxVKP1lJGC9tG9uqK" />
+  <component name="ProjectId" id="2cDi3Xzzf150pD1O05QutF0jAiG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,7 +28,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Brandon/Documents/GitHub/Java-Design-Patterns-And-SOLID-Design-Principles-Training/02-Creational-Design-Patterns"
+    "last_opened_file_path": "C:/Users/Brandon/Documents/GitHub/Java-Design-Patterns-And-SOLID-Design-Principles-Training/02-Creational-Design-Patterns/06-Singleton"
   }
 }]]></component>
   <component name="RunManager">
@@ -44,11 +46,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ae77487-c5ad-4bfe-85ce-7b735eaa2db1" name="Changes" comment="" />
-      <created>1707636969783</created>
+      <changelist id="8f166074-0556-4607-9589-8c6d5a0b6787" name="Changes" comment="" />
+      <created>1707652353091</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1707636969783</updated>
+      <updated>1707652353091</updated>
     </task>
     <servers />
   </component>
