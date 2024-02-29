@@ -4,4 +4,7 @@ package com.coffeepoweredcrew.iterator;
 //values of an aggregate
 public interface Iterator<T> {
 
+	boolean hasNext();
+	
+	T next();
 }
