@@ -14,6 +14,7 @@ public class AddStepCommand extends AbstractWorkflowCommand {
     @Override
     public void execute() {
         this.memento = receiver.getMemento();
+
         receiver.addStep(step);
     }
 }

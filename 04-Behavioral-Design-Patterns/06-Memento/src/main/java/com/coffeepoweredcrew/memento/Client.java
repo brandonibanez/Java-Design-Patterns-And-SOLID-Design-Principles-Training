@@ -13,16 +13,11 @@ public class Client {
         WorkflowDesigner designer = new WorkflowDesigner();
         LinkedList<WorkflowCommand> commands = runCommands(designer);
         designer.print();
-        undoLastCommand(commands);
+        commands.removeLast().undo();
         designer.print();
-        undoLastCommand(commands);
+        commands.removeLast().undo();
         designer.print();
-        undoLastCommand(commands);
-        designer.print();
-        undoLastCommand(commands);
-        designer.print();
-        undoLastCommand(commands);
-        designer.print();
+
     }
 
     private static void undoLastCommand(LinkedList<WorkflowCommand> commands) {
