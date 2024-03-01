@@ -1,6 +1,6 @@
 package com.coffeepoweredcrew.observer;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 //A concrete subject 
@@ -16,10 +16,20 @@ public class Order {
     //no of items
     private int count;
 
+    private List<OrderObserver> observers = new ArrayList<>();
+    
     public Order(String id) {
         this.id = id;
     }
+    
+    public void attach(OrderObserver observer) {
+    	observers.add(observer);
+    }
 
+    public void detach(OrderObserver observer) {
+    	observers.remove(observer);
+    }
+    
     public double getTotal() {
         return itemCost - discount + shippingCost;
     }
@@ -27,6 +37,7 @@ public class Order {
     public void addItem(double price) {
         itemCost += price;
         count ++;
+        observers.stream().forEach(o-> o.updated(this));
     }
 
     public int getCount() {
