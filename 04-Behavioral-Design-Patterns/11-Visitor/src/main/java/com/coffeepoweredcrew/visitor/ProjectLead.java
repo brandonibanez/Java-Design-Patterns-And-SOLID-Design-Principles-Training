@@ -19,5 +19,11 @@ public class ProjectLead extends AbstractEmployee {
 		return directReports;
 	}
 
+
+	@Override
+	public void accept(Visitor visitor) {
+		visitor.visit(this);
+	}
+
 	
 }
