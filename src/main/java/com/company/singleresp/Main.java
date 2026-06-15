@@ -11,7 +11,7 @@ public class Main {
 	private static final String INVALID_USER_JSON = "{\"name\": \"Sam\", \"email\": \"sam@email\", \"address\":\"111 Sugar lane\"}";
 	
 	public static void main(String[] args) throws IOException {
-		UserController controller = new UserController();
+		UserController controller = new UserController(new UserValidator());
 		//Check with valid JSON
 		String response = controller.createUser(VALID_USER_JSON);	
 		if(!response.equalsIgnoreCase("SUCCESS")) {
